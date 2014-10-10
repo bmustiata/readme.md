@@ -1,0 +1,33 @@
+{
+    "name": "readme.md",
+    "description": "Allow creating a simple JS String from a README.md in order to use it in various package config files (like package.json)",
+    "author": [{
+        "name" : "Bogdan Mustiata",
+        "email" : "bogdan.mustiata@gmail.com"
+    }],
+    "version": "0.1.0",
+    "dependencies": {
+		"promised-node" : "0.1.4"
+    },
+    "keywords": ["readme.md", "readme", "package.json", "markdown"],
+	"bin": {
+		"readme-md-update": "bin/readme-md-update.js"
+	},
+    "main": "./lib/readme.md.js",
+    "bugs": {
+        "url": "https://github.com/bmustiata/readme.md/issues"
+    },
+    "licenses": [
+        {
+            "type": "BSD",
+            "url": "https://github.com/bmustiata/readme.md/blob/master/LICENSE"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bmustiata/readme.md.git"
+    },
+    "readme": "Allow creating a simple JS String from a README.md in order to use it in various package config files (like package.json)",
+    "readmeFilename": "README.md",
+    "homepage": "http://blog.ciplogic.com"
+}
